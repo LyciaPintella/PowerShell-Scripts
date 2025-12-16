@@ -1,0 +1,45 @@
+﻿<# TOTAL WAR: WARHAMMER III - RUNCHER AND RPFM SETTINGS DYNAMIC LINK SECTION #>
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
+cmd /c rmdir /s /q "Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
+New-Item -ItemType Directory -Path "Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
+
+Set-Location "Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
+cmd /c rmdir /s /q "Runcher Settings Backup"
+New-Item -ItemType Junction -Path "Runcher Settings Backup" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\runcher"
+cmd /c rmdir /s /q "RPFM Settings Backup"
+New-Item -ItemType Directory -Path "RPFM Settings Backup"
+Set-Location "RPFM Settings Backup"
+New-Item -ItemType Directory -Path "config"
+Set-Location "config"
+
+# autosaves folder can become very large. Remove if needed.
+New-Item -ItemType Junction -Path "autosaves" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\autosaves"
+New-Item -ItemType Junction -Path "dependencies" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\dependencies"
+New-Item -ItemType Junction -Path "error" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\error"
+New-Item -ItemType Junction -Path "old_ak_files" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\old_ak_files"
+New-Item -ItemType Junction -Path "schemas" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\schemas"
+New-Item -ItemType Junction -Path "table_patches" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\table_patches"
+New-Item -ItemType Junction -Path "translations_local" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\translations_local"
+
+<# ONEDRIVE APPDATA COPY OF RUNCHER AND RPFM CONFIG #>
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files"
+Set-Location "AppData Settings and Start Menu Configuration Auto Backup\Jessica Ariadne Murphy"
+cmd /c rmdir /s /q "Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
+New-Item -ItemType Directory -Path "Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
+Set-Location "Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
+cmd /c rmdir /s /q "Runcher Settings Backup"
+New-Item -ItemType Junction -Path "Runcher Settings Backup" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\runcher"
+cmd /c rmdir /s /q "RPFM Settings Backup"
+New-Item -ItemType Directory -Path "RPFM Settings Backup"
+Set-Location "RPFM Settings Backup"
+New-Item -ItemType Directory -Path "config"
+Set-Location "config"
+
+#autosaves folder can become very large. Remove if needed.
+New-Item -ItemType Junction -Path "autosaves" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\autosaves"
+New-Item -ItemType Junction -Path "dependencies" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\dependencies"
+New-Item -ItemType Junction -Path "error" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\error"
+New-Item -ItemType Junction -Path "old_ak_files" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\old_ak_files"
+New-Item -ItemType Junction -Path "schemas" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\schemas"
+New-Item -ItemType Junction -Path "table_patches" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\table_patches"
+New-Item -ItemType Junction -Path "translations_local" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\translations_local"

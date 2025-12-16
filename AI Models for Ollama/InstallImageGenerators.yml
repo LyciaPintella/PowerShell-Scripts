@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    restart: unless-stopped
+    ports:
+      - "3000:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - ENABLE_IMAGE_GENERATION=true
+      - AUTOMATIC1111_BASE_URL=http://sd-webui:7860
+    depends_on:
+      - ollama
+      - sd-webui
+
+  sd-webui:
+    image: goolashe/automatic1111-sd-webui:latest
+    container_name: sd-webui
+    restart: unless-stopped
+    ports:
+      - "7860:7860"
+    volumes:
+      - sd-data:/data
+    environment:
+      - CLI_ARGS=--listen --port 7860 --xformers
+
+volumes:
+  ollama-data:
+  sd-data:

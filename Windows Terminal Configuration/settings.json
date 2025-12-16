@@ -1,0 +1,292 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysShowNotificationIcon": true,
+    "compatibility.allowHeadless": true,
+    "copyFormatting": "all",
+    "copyOnSelect": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "firstWindowPreference": "defaultProfile",
+    "initialCols": 180,
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.ToggleCommandPalette",
+            "keys": "ctrl+h"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+f"
+        },
+        {
+            "id": "Terminal.ToggleCommandPalette",
+            "keys": "alt+c"
+        },
+        {
+            "id": "Terminal.ToggleCommandPalette",
+            "keys": "f1"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "id": "Terminal.ToggleCommandPalette",
+            "keys": "shift+c"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+p"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "Terminal.OpenNewTab",
+            "keys": "ctrl+t"
+        },
+        {
+            "id": "Terminal.ClosePane",
+            "keys": "ctrl+w"
+        }
+    ],
+    "language": "en-US",
+    "minimizeToNotificationArea": true,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "newTabPosition": "afterCurrentTab",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
+            "backgroundImageOpacity": 1,
+            "colorScheme": "Tango Dark But With Blue Text",
+            "elevate": true,
+            "font": 
+            {
+                "size": 14,
+                "weight": "extra-bold"
+            },
+            "icon": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\TW Backups - Jess\\TW WHIII Icons\\Total War Warhammer III - Dragon.ico",
+            "intenseTextStyle": "all",
+            "opacity": 100,
+            "startingDirectory": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\Games\\Steam\\Total War"
+        },
+        "list": 
+        [
+            {
+                "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
+                "backgroundImageOpacity": 1,
+                "backgroundImageStretchMode": "uniformToFill",
+                "colorScheme": 
+                {
+                    "light": "Tango Dark But With Blue Text"
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "icon": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\TW Backups - Jess\\TW WHIII Icons\\Total War Warhammer III - Karl Franz 2.ico",
+                "name": "Windows PowerShell 7.3.7 AMD64",
+                "source": "Windows.Terminal.PowershellCore",
+                "startingDirectory": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\Games\\Steam\\Total War",
+                "tabTitle": null
+            },
+            {
+                "backgroundImage": "C:\\OneDrive\\Jessica Ariadne Murphy\\OneDrive\\Pictures\\Diapers\\Best Diaper Girl Picture 3.jpg",
+                "guid": "{34a13805-9b56-5e89-9234-f02de44bd971}",
+                "hidden": false,
+                "name": "Windows PowerShell 7.3.7 x86",
+                "source": "Windows.Terminal.PowershellCore",
+                "tabTitle": null
+            },
+            {
+                "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
+                "colorScheme": 
+                {
+                    "light": "Tango Dark But With Blue Text"
+                },
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "icon": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\TW Backups - Jess\\TW WHIII Icons\\Total War Warhammer III - Karl Franz 1.ico",
+                "name": "Windows PowerShell 5.1.22621.1830",
+                "startingDirectory": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\Games\\Steam\\Total War",
+                "tabTitle": "Windows PowerShell: 5.1.22621.1830"
+            },
+            {
+                "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
+                "colorScheme": "Tango Dark But With Blue Text",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "icon": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\TW Backups - Jess\\TW WHIII Icons\\Total War Warhammer III - N'Kari.ico",
+                "name": "Windows Command Prompt",
+                "startingDirectory": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\Games\\Steam\\Total War",
+                "tabTitle": "Windows Command Prompt"
+            },
+            {
+                "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
+                "guid": "{b3138a24-f1ce-5065-8425-fa9a8d1f1fc4}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{0d0c9a9f-7e62-5a15-bdab-164508f9ecf6}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{40c77338-7677-524c-ad5a-7b9ca4da5786}",
+                "hidden": false,
+                "name": "AlmaLinux OS 9",
+                "source": "AlmaLinuxOSFoundation.AlmaLinux9_dx92scvka9p9g"
+            },
+            {
+                "backgroundImageStretchMode": "uniformToFill",
+                "guid": "{ea4902dd-27c5-53f5-9ce6-e90b5b784b45}",
+                "hidden": false,
+                "name": "Fedora Remix for WSL",
+                "source": "WhitewaterFoundryLtd.Co.FedoraRemixforWSLSL_jrhb67h10t4wm"
+            },
+            {
+                "guid": "{07975c00-d74c-5278-ba14-6aaf273abf6f}",
+                "hidden": false,
+                "name": "OracleLinux_9_5",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{040417d6-8862-57d0-8add-9ba75fe2e95a}",
+                "hidden": true,
+                "name": "AlmaLinux-9",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{0afb0b03-19cc-59a6-95a4-1a18a5db5533}",
+                "hidden": false,
+                "name": "PistachioLinux",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{d3f31bee-5823-5ed8-8e04-f31ed54f2cd9}",
+                "hidden": true,
+                "name": "fedoraremix",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{d9a465dd-fff8-573f-8475-d2a33c61ef7b}",
+                "hidden": false,
+                "name": "SUSE-Linux-Enterprise-15-SP6",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{3f5357a8-0a86-5738-ad6a-c735b6921f06}",
+                "hidden": false,
+                "name": "openSUSE-Leap-15.6",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+                "hidden": false,
+                "name": "PowerShell 7 Preview",
+                "source": "Windows.Terminal.PowershellCore"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#B4009E",
+            "brightRed": "#EF2929",
+            "brightWhite": "#EEEEEC",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#0003FF",
+            "cyan": "#06989A",
+            "foreground": "#D70000",
+            "green": "#4E9A06",
+            "name": "Tango Dark (modified)",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#B4009E",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        },
+        {
+            "background": "#000000",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#C50F1F",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#FF0004",
+            "cursorColor": "#FF0004",
+            "cyan": "#3A96DD",
+            "foreground": "#0037DA",
+            "green": "#13A10E",
+            "name": "Tango Dark But With Blue Text",
+            "purple": "#881798",
+            "red": "#FF0004",
+            "selectionBackground": "#D90E97",
+            "white": "#CCCCCC",
+            "yellow": "#FF0004"
+        }
+    ],
+    "showTabsInTitlebar": false,
+    "tabWidthMode": "titleLength",
+    "themes": [],
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useExisting"
+}

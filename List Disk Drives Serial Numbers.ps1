@@ -1,0 +1,1 @@
+Get-WmiObject Win32_DiskDrive | Select-Object Model,SerialNumber

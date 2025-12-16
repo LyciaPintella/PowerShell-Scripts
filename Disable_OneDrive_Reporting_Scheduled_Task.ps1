@@ -1,0 +1,1 @@
+Get-ScheduledTask onedrive` reporting* | Unregister-ScheduledTask
