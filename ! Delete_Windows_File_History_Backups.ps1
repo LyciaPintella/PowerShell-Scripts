@@ -1,0 +1,2 @@
+Remove-Item -Path "Z:\FileHistory\Jessica\JESSICA-PC\Data\C" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "Z:\FileHistory\Jessica\JESSICA-PC\Data\E" -Recurse -Force -ErrorAction SilentlyContinue
