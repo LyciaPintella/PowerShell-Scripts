@@ -1,12 +1,82 @@
 --[[
-winget repair --all
-winget upgrade --all
-winget install MartiCliment.UniGetUI #UniGet UI
-winget install Romanitho.Winget-AutoUpdate #Winget AutoUpdate
-winget install GitHub Desktop
-winget install GitHub.cli
-winget install Microsoft.CmdPalGitHubExtension
+
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
+winget install 
 winget install Oracle.VirtualBox 7.2.4
+
+]]--
+--[[
+
+winget install chylex.DiscordHistoryTracker
+winget install DiscordChatExporter.GUI
+winget install Tyrrrz.DiscordChatExporter.CLI
+winget install Microsoft.VisualStudio.Locator
+winget install Microsoft.XMLNotepad #XML Notepad
+winget install 9MVLFK6TR4D4
+winget install KDE.KDevelop
+winget install GDevelop.GDevelop
+winget install 9NBLGGH4RSD8
+winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Visual Studio / Code for Command Palette
+winget install ArduinoSA.IDE.stable
+winget install EclipseFoundation.TheiaIDE
+winget install 9NPR957HTH9Q #LuaBox
+winget install MiniZinc.MiniZincIDE
+winget install SimulIDE.SimulIDE
+winget install Xidicone.ZeusIDE
+winget install 9N2TLT3LFTD8 #LUA Code Studio
+winget install 9PHHPRJ65T1Z #LUA script test
+winget install DEVCOM.Lua
+winget install DEVCOM.LuaJIT
+winget install LuaLS.lua-language-server
+winget install rjpcomputing.luaforwindows
+winget install Microsoft.CmdPalGitHubExtension
+winget install Alex313031.Codium
+winget install rjpcomputing.luaforwindows
+winget install VSCodium.VSCodium
+winget install KDE.Kate #Kate
+winget install Alex313031.Codium
+winget  nstall RoniLehto.LMath
+winget install Koihik.vscode-lua-format
+winget install Coder.CoderDesktop
+winget install zokugun.MrCode
+
+winget install GIMP.GIMP.3
+winget install Microsoft.WSL #Windows Subsystem for Linux
+winget install 9P5RWLM70SN9 #AlmaLinux OS 9
+winget install 9P41G2MV9CQ3 #Pistachio Linux
+winget install Debian.Debian #Debian GNU/Linux
+winget install Oracle.OracleLinux.9.54 #Oracle Linux 9.54
+winget install whitewaterfoundry.fedora-remix-for-wsl #Fedora Remix for WSL
+winget install SUSE.SUSE.15SP6 #SUSE Linux Enterprise 15 SP6
+winget install SUSE.openSUSE.Leap.15.6 #openSUSE Leap 15.6
+winget install OffSec.KaliLinux #Kali Linux
+
+winget install Microsoft.RemoteDesktopClient #Remote Desktop Client
+# winget install 9N8G7TSCL18R #NanaZip
 
 ]]--
 --[[
@@ -31,10 +101,8 @@ winget install 9PHHPRJ65T1Z #Lua Script Test
 winget install 9N2TLT3LFTD8 #Lua Code Studio
 winget install 9NPR957HTH9Q #LuaBox
 winget install rjpcomputing.luaforwindows #Lua for Windows
-winget install LuaLS.lua-language-server #Lua Language Server
 winget install 9NPR957HTH9Q #LuaBox
 winget install DEVCOM.LuaJIT #LuaJIT
-winget install Koihik.vscode-lua-format #Lua Format
 winget install VisualSVNSoftwareLtd.VisualSVNRepository #VisualSVN Repository
 winget install VisualParadigm.VisualParadigmViewer #Visual Paradigm Viewer
 winget install VisualParadigm.VisualParadigm.Community #Visual Paradigm Community Edition
@@ -78,10 +146,11 @@ winget install AutoIt.AutoIt #AutoIt
 winget install SystweakSoftware.DuplicateFilesFixer #Duplicate Files Fixer
 winget install houmain.keymapper #KeyMapper
 winget install XPDM5VSMTKQLBJ #Battle.net
+winget install HenrikWenz.All-in-OneMessenger #All-in-One Messenger
+]]--
 
-<#winget install HenrikWenz.All-in-OneMessenger #All-in-One Messenger#>
 
-<#
+--[[
 winget install chylex.DiscordHistoryTracker #Discord History Tracker
 winget install Tyrrrz.DiscordChatExporter.GUI #Discord Chat Exporter GUI
 winget install OverlayedDev.Overlayed #Overlayed
@@ -104,15 +173,12 @@ winget install 9PN4P7PMP4JT
 # End Weather Applications!
 winget install Microsoft.PowerToys #PowerToys
 winget install Tenpi.PhotoViewer #Photo Viewer
-winget install Microsoft.VisualStudioCode
-winget install Microsoft.VisualStudioCode.CLI
+
 winget install Microsoft.VisualStudioCode.Insiders
 winget install Microsoft.VisualStudioCode.Insiders.CLI
 winget install Coder.CoderDesktop #Coder Desktop
 winget install EclipseFoundation.TheiaIDE #Theia IDE
 winget install VSCodium.VSCodium #VSCodium
-winget install JonahFintzDEV.CommandPalette-VSCode #Command Palette - VS Code
-winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Workspace Launcher for VS Code
 winget install zokugun.MrCode #MrCode
 winget install KDE.Kate #Kate
 winget install Microsoft.VisualStudio.2022.Community #Visual Studio 2022 Community Edition
@@ -132,7 +198,7 @@ winget install Oracle.OracleLinux.9.54 #Oracle Linux 9.54
 winget install whitewaterfoundry.fedora-remix-for-wsl #Fedora Remix for WSL
 winget install SUSE.SUSE.15SP6 #SUSE Linux Enterprise 15 SP6
 winget install SUSE.openSUSE.Leap.15.6 #openSUSE Leap 15.6
-```
+
 ]]--
 --[[
 
@@ -186,7 +252,6 @@ winget install GPSoftware.DirectoryOpus #Directory Opus
 winget install Microsoft.VisualStudioCode #Visual Studio Code
 winget install Ubisoft.Connect #Ubisoft Connect
 winget install EpicGames.EpicGamesLauncher #Epic Games Launcher
-winget install Discord.Discord #Discord
 winget install Naturalsoft.NaturalReader16 #NaturalReader 16
 winget install OBSProject.OBSStudio #OBS Studio
 winget install OffSec.KaliLinux #Kali Linux
@@ -200,10 +265,10 @@ winget install OpenWhisperSystems.Signal #Signal
 winget install Opera.OperaGX #Opera GX
 winget install Oracle.OracleLinux.9.5 #Oracle Linux 9.5
 winget install SimulIDE SimulIDE.SimulIDE #SimulIDE
+
 ]]--
 --[[
-winget install Oracle.VirtualBox #Oracle VM VirtualBox
-winget install OrangeDrangon.AndroidMessages.Desktop #Android Messages Desktop
+
 winget install OrpheusTechnologyLtd.ProWritingAid.OfficeAddIn #ProWritingAid for Microsoft Office
 winget install OzMartian.VidCutter #VidCutter
 winget install OxfordUniversityPressELT.OxfordLearnersBookshelf #Oxford Learner's Bookshelf
@@ -223,16 +288,14 @@ winget install Rambax.SimpleTransfer #Simple Transfer
 winget install RamenSoftware.7+TaskbarTweaker #7+ Taskbar Tweaker
 winget install RandomEngy.VidCoder #VidCoder
 
-<#winget install RealtimeSoft.UltraMon #UltraMon#>
+winget install RealtimeSoft.UltraMon #UltraMon
 
-<#
-  ? Runs in command prompt, dlss-updater #'
+
+  ? Runs in command prompt, dlss-updater
 winget install Recol.DLSSUpdater #DLSS Updater
 winget install RedHat.Podman-Desktop #Podman Desktop
 winget install RevoLand.Steam-Library-Manager #Steam Library Manager
-
 winget install RoyQu.RedPanda-C++ #RedPanda-C++
-winget install 7zip.7zip #7-Zip
 winget install Fedora.FedoraMediaWriter #Fedora Media Writer
 winget install Toxblh.WinToLinux #WinToLinux
 winget install aandrew-me.ytDownloader #YouTube Downloader
@@ -243,8 +306,8 @@ winget install CrowdSecurity.CrowdSec #CrowdSec
 winget install 0xJacky.nginx-ui #nginx-ui
 winget install DOSBox.DOSBox #DOSBox
 winget install U14.GeminiNextChat
-winget install WinDirStat.WinDirStat #WinDirStat
-		   <#LINUX DISTROS
+
+		   LINUX DISTROS
 winget install 9P5RWLM70SN9 #AlmaLinux OS 9
 winget install 9P41G2MV9CQ3 #Pistachio Linux
 winget install Debian.Debian #Debian GNU/Linux
@@ -252,5 +315,5 @@ winget install Oracle.OracleLinux.9.54 #Oracle Linux 9.54
 winget install whitewaterfoundry.fedora-remix-for-wsl #Fedora Remix for WSL
 winget install SUSE.SUSE.15SP6 #SUSE Linux Enterprise 15 SP6
 winget install SUSE.openSUSE.Leap.15.6 #openSUSE Leap 15.6
-		LINUX DISTROS#>
+		LINUX DISTROS
 ]]--
