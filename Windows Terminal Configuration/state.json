@@ -1,15 +1,24 @@
 {
 	"generatedProfiles" : 
 	[
-		"{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
 		"{51855cb2-8cce-5362-8f54-464b92b32386}",
+		"{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+		"{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
 		"{4dd1e689-b517-5f39-947d-78e8a8bdf958}",
-		"{ea4902dd-27c5-53f5-9ce6-e90b5b784b45}",
 		"{24a0533e-913b-5f8c-a5cb-6be85a4c9e70}",
+		"{ea4902dd-27c5-53f5-9ce6-e90b5b784b45}",
+		"{2595cd9c-8f05-55ff-a1d4-93f3041ca67f}",
+		"{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+		"{df4e36ad-bf5b-5cc0-b841-08570e692c38}",
+		"{4ebf4be2-4029-59b4-91df-0ed6bcdf32ea}",
 		"{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+		"{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+		"{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
 		"{2c4de342-38b7-51cf-b940-2309a097f518}",
-		"{40c77338-7677-524c-ad5a-7b9ca4da5786}"
+		"{40c77338-7677-524c-ad5a-7b9ca4da5786}",
+		"{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+		"{09cb7e06-4ad7-5f71-a858-6f0f9f9d8f1a}"
 	],
 	"persistedWindowLayouts" : [],
-	"settingsHash" : "52789a80440bfe36-01dbfe8d45765c1e"
+	"settingsHash" : "0850732ba0986620-01dc6f3a717aa227"
 }

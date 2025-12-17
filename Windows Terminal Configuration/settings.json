@@ -1,14 +1,15 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
     "actions": [],
     "alwaysShowNotificationIcon": true,
     "compatibility.allowHeadless": true,
     "copyFormatting": "all",
     "copyOnSelect": true,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "defaultProfile": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
     "firstWindowPreference": "defaultProfile",
-    "initialCols": 180,
+    "initialCols": 120,
+    "initialRows": 25,
     "keybindings": 
     [
         {
@@ -16,12 +17,12 @@
             "keys": "ctrl+h"
         },
         {
-            "id": "Terminal.PasteFromClipboard",
-            "keys": "ctrl+v"
-        },
-        {
             "id": null,
             "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
         },
         {
             "id": "Terminal.FindText",
@@ -73,6 +74,86 @@
     "newTabMenu": 
     [
         {
+            "icon": null,
+            "profile": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+            "type": "profile"
+        },
+        {
+            "icon": null,
+            "profile": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+            "type": "profile"
+        },
+        {
+            "icon": null,
+            "profile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "type": "profile"
+        },
+        {
+            "allowEmpty": false,
+            "entries": 
+            [
+                {
+                    "icon": null,
+                    "profile": "{1807c92a-921e-4c6d-998b-49990435e340}",
+                    "type": "profile"
+                },
+                {
+                    "icon": null,
+                    "profile": "{09cb7e06-4ad7-5f71-a858-6f0f9f9d8f1a}",
+                    "type": "profile"
+                }
+            ],
+            "icon": null,
+            "inline": "never",
+            "name": "Linux",
+            "type": "folder"
+        },
+        {
+            "allowEmpty": false,
+            "entries": 
+            [
+                {
+                    "icon": null,
+                    "profile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                    "type": "profile"
+                },
+                {
+                    "icon": null,
+                    "profile": "{2595cd9c-8f05-55ff-a1d4-93f3041ca67f}",
+                    "type": "profile"
+                },
+                {
+                    "icon": null,
+                    "profile": "{4ebf4be2-4029-59b4-91df-0ed6bcdf32ea}",
+                    "type": "profile"
+                },
+                {
+                    "icon": null,
+                    "profile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                    "type": "profile"
+                }
+            ],
+            "icon": null,
+            "inline": "never",
+            "name": "Other PowerShell",
+            "type": "folder"
+        },
+        {
+            "allowEmpty": false,
+            "entries": 
+            [
+                {
+                    "icon": null,
+                    "profile": "{df4e36ad-bf5b-5cc0-b841-08570e692c38}",
+                    "type": "profile"
+                }
+            ],
+            "icon": null,
+            "inline": "never",
+            "name": "Other Command Prompt",
+            "type": "folder"
+        },
+        {
             "type": "remainingProfiles"
         }
     ],
@@ -81,7 +162,7 @@
     {
         "defaults": 
         {
-            "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
+            "backgroundImage": "E:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
             "backgroundImageOpacity": 1,
             "colorScheme": "Tango Dark But With Blue Text",
             "elevate": true,
@@ -90,148 +171,73 @@
                 "size": 14,
                 "weight": "extra-bold"
             },
-            "icon": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\TW Backups - Jess\\TW WHIII Icons\\Total War Warhammer III - Dragon.ico",
+            "icon": "E:\\OD\\Jessica\\OneDrive\\TW Backups\\TW WHIII Icons\\Total War Warhammer III - Dragon.ico",
             "intenseTextStyle": "all",
             "opacity": 100,
-            "startingDirectory": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\Games\\Steam\\Total War"
+            "rightClickContextMenu": true,
+            "startingDirectory": "E:\\OD\\Jessica\\OneDrive"
         },
         "list": 
         [
             {
-                "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
-                "backgroundImageOpacity": 1,
-                "backgroundImageStretchMode": "uniformToFill",
-                "colorScheme": 
-                {
-                    "light": "Tango Dark But With Blue Text"
-                },
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "icon": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\TW Backups - Jess\\TW WHIII Icons\\Total War Warhammer III - Karl Franz 2.ico",
-                "name": "Windows PowerShell 7.3.7 AMD64",
-                "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\Games\\Steam\\Total War",
-                "tabTitle": null
-            },
-            {
-                "backgroundImage": "C:\\OneDrive\\Jessica Ariadne Murphy\\OneDrive\\Pictures\\Diapers\\Best Diaper Girl Picture 3.jpg",
-                "guid": "{34a13805-9b56-5e89-9234-f02de44bd971}",
-                "hidden": false,
-                "name": "Windows PowerShell 7.3.7 x86",
-                "source": "Windows.Terminal.PowershellCore",
-                "tabTitle": null
-            },
-            {
-                "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
-                "colorScheme": 
-                {
-                    "light": "Tango Dark But With Blue Text"
-                },
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "icon": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\TW Backups - Jess\\TW WHIII Icons\\Total War Warhammer III - Karl Franz 1.ico",
-                "name": "Windows PowerShell 5.1.22621.1830",
-                "startingDirectory": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\Games\\Steam\\Total War",
-                "tabTitle": "Windows PowerShell: 5.1.22621.1830"
+                "name": "Windows PowerShell"
             },
             {
-                "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
-                "colorScheme": "Tango Dark But With Blue Text",
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "icon": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\TW Backups - Jess\\TW WHIII Icons\\Total War Warhammer III - N'Kari.ico",
-                "name": "Windows Command Prompt",
-                "startingDirectory": "C:\\OD\\Jessica\\OneDrive\\Jess Files\\Games\\Steam\\Total War",
-                "tabTitle": "Windows Command Prompt"
-            },
-            {
-                "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "name": "Git Bash",
-                "source": "Git"
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "backgroundImage": "C:\\OD\\Jessica\\OneDrive\\Pictures - Women in Diapers and Bondage\\The Very Best Women in Diapers\\Women in Diapers 316.jpg",
-                "guid": "{b3138a24-f1ce-5065-8425-fa9a8d1f1fc4}",
+                "guid": "{df4e36ad-bf5b-5cc0-b841-08570e692c38}",
                 "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
+                "name": "Developer Command Prompt for VS 18",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{0d0c9a9f-7e62-5a15-bdab-164508f9ecf6}",
+                "guid": "{2595cd9c-8f05-55ff-a1d4-93f3041ca67f}",
                 "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "PowerShell Preview (msix)",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "guid": "{40c77338-7677-524c-ad5a-7b9ca4da5786}",
+                "guid": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
                 "hidden": false,
-                "name": "AlmaLinux OS 9",
-                "source": "AlmaLinuxOSFoundation.AlmaLinux9_dx92scvka9p9g"
-            },
-            {
-                "backgroundImageStretchMode": "uniformToFill",
-                "guid": "{ea4902dd-27c5-53f5-9ce6-e90b5b784b45}",
-                "hidden": false,
-                "name": "Fedora Remix for WSL",
-                "source": "WhitewaterFoundryLtd.Co.FedoraRemixforWSLSL_jrhb67h10t4wm"
-            },
-            {
-                "guid": "{07975c00-d74c-5278-ba14-6aaf273abf6f}",
-                "hidden": false,
-                "name": "OracleLinux_9_5",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
-                "hidden": false,
-                "name": "Debian",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{040417d6-8862-57d0-8add-9ba75fe2e95a}",
-                "hidden": true,
-                "name": "AlmaLinux-9",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{0afb0b03-19cc-59a6-95a4-1a18a5db5533}",
-                "hidden": false,
-                "name": "PistachioLinux",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{d3f31bee-5823-5ed8-8e04-f31ed54f2cd9}",
-                "hidden": true,
-                "name": "fedoraremix",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{d9a465dd-fff8-573f-8475-d2a33c61ef7b}",
-                "hidden": false,
-                "name": "SUSE-Linux-Enterprise-15-SP6",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{3f5357a8-0a86-5738-ad6a-c735b6921f06}",
-                "hidden": false,
-                "name": "openSUSE-Leap-15.6",
-                "source": "Windows.Terminal.Wsl"
+                "name": "PowerShell 7",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
                 "hidden": false,
                 "name": "PowerShell 7 Preview",
                 "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "commandline": "D:\\program Files\\WSL\\wsl.exe",
+                "guid": "{1807c92a-921e-4c6d-998b-49990435e340}",
+                "hidden": false,
+                "name": "Windows Subsystem for Linux",
+                "rightClickContextMenu": true,
+                "tabTitle": "Windows Subsystem for Linux"
+            },
+            {
+                "guid": "{09cb7e06-4ad7-5f71-a858-6f0f9f9d8f1a}",
+                "hidden": false,
+                "name": "Ubuntu-24.04",
+                "source": "Microsoft.WSL"
             }
         ]
     },
