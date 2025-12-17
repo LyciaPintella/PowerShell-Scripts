@@ -1,4 +1,3 @@
-# Pull the 'openthinker:7b' model from Ollama
 ollama pull deepseek-coder:6.7b
 ollama pull deepseek-coder-v2:16b
 ollama pull llama3.2-vision:11b
