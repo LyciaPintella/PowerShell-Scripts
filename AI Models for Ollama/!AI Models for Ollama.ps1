@@ -1,3 +1,5 @@
+ollama pull qwen3:8b # Qwen 3 8B (Reasoning model)
+
 # Llama 3.1 8B (Ollama library)
 ollama pull llama3.1:8b
 
