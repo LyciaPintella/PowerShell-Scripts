@@ -6,7 +6,7 @@ $usbDrive = "T:"
 #Format-Volume -DriveLetter $usbDrive.Trim(":") -FileSystem NTFS -Confirm:$false
 
 # Mount the ISO file
-$isoPath = "F:\USB OS Installers and Tools\Windows 11 24H2 x64.iso"
+$isoPath = "E:\OD\Jessica\OneDrive\Jess Files\USB OS Installers and Tools\Windows 11 Retail 25H2 x64.iso"
 $mountResult = Mount-DiskImage -ImagePath $isoPath -PassThru
 $volumeInfo = $mountResult | Get-Volume
 
@@ -19,13 +19,13 @@ Dismount-DiskImage -ImagePath $isoPath #-DevicePath $volumeInfo.DeviceID
 
 # Win 11 Insider Preview
 # Identify the target USB drive (ensure correct drive letter)
-$usbDrive = "U:"
+$usbDrive = "H:"
 
 # Format the USB drive
 #Format-Volume -DriveLetter $usbDrive.Trim(":") -FileSystem NTFS -Confirm:$false
 
 # Mount the ISO file
-$isoPath = "F:\USB OS Installers and Tools\Windows11_InsiderPreview_Client_x64_en-us_26200.iso"
+$isoPath = "E:\OD\Jessica\OneDrive\Jess Files\USB OS Installers and Tools\Windows 11 Insider Preview x64 v22621.iso"
 $mountResult = Mount-DiskImage -ImagePath $isoPath -PassThru
 $volumeInfo = $mountResult | Get-Volume
 
