@@ -10,6 +10,7 @@ winget install SystweakSoftware.AdvancedDriverUpdater
 winget install Ollama.Ollama
 ! Claude Coder AI Installer Script - add C:\Users\Jessica\.local\bin to your PATH environment variable too!
 irm https://claude.ai/install.ps1 | iex
+choco.exe install faststone-image-viewer -y --no-progress
 winget install winaero.tweaker
 winget install Mozilla.Firefox
 winget install Docker.DockerDesktop
