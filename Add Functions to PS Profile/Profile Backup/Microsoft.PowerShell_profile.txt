@@ -3,6 +3,7 @@ if (-not (Test-Path -Path $PROFILE)) {
 	New-Item -ItemType File -Path $PROFILE -Force | Out-Null
 }
 
+
 # ! Clear Stuck Recycle Bin Items
 function Clear-StuckRecycleBin {
 	[CmdletBinding()]
@@ -21,7 +22,7 @@ function Clear-StuckRecycleBin {
 			Clear-RecycleBin -Confirm:$false -Force
 		}
 	}
-	else {
+ else {
 		Write-Host "Clear-RecycleBin not available in this session; skipping to force removal." -ForegroundColor Yellow
 	}
 
@@ -151,14 +152,13 @@ if (-not (Get-Alias -Name OneDriveSecurity -ErrorAction SilentlyContinue)) {
 <# ! Recursively Find Symbolic Links Under The Current Directory.
 			Run as:
 		     Get-Symlinks
-			#$Get-Symlinks -Symbolic#>
+	     Get-Symlinks -OnlySymbolic #>
 
 function Get-Symlinks {
 	[CmdletBinding()]
 	param(
 		[string]$Path = '.',
-		[switch]$Symbolic,
-		[switch]$Directory
+		[switch]$OnlySymbolic
 	)
 	$gciParams = @{
 		Path        = $Path
@@ -173,16 +173,8 @@ function Get-Symlinks {
 
 	$items = Get-ChildItem @gciParams
 
-	if ($Symbolic) {
-		$items = $items | Where-Object $_.LinkType -eq 'SymbolicLink'
-	}
-	else {
-		if ($Directory) {
-			$items = $items | Where-Object { $_.LinkType -eq 'Directory' }
-		}
-		else {
-			$items = $items | Where-Object { $_.LinkType -eq 'SymbolicLink', 'Directory' }
-		}
+	if ($OnlySymbolic) {
+		$items = $items | Where-Object LinkType -eq 'SymbolicLink'
 	}
 
 	$items | Select-Object FullName, LinkType, Target
@@ -229,4 +221,4 @@ function Get-GDriveCacheSize {
 }
 if (-not (Get-Alias -Name gdcache -ErrorAction SilentlyContinue)) {
 	Set-Alias -Name gdcache -Value Get-GDriveCacheSize
-}
+   }
