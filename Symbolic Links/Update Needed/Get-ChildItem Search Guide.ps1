@@ -4,7 +4,8 @@ Get-ChildItem "D:\Games\Runcher Secondary Mods Folder\pharaoh_dynasties" -Filter
 
 Get-ChildItem "d:\games\Steam Library\SteamApps\common\Total War PHARAOH DYNASTIES\data" -Filter *.pack -Recurse -File | Select-String -Pattern 'poseiden' -List | Select-Object -ExpandProperty Path -Unique | Format-Wide
 
-
+Set-Location "C:\Program Files"
+New-Item -ItemType SymbolicLink -Path "NVIDIA Corporation" -Target "D:\Program Files\NVIDIA Corporation"
 
 
 #DirectoryListShortName
