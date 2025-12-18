@@ -63,7 +63,7 @@ foreach ($p in $paths) {
                 Write-Host "Moved $p -> $backupPath"
             }
             catch {
-                Write-Verbose "Move-Item failed for $p: $($_.Exception.Message). Attempting copy+remove fallback."
+                Write-Verbose "Move-Item failed for $p. $($_.Exception.Message). Attempting copy+remove fallback."
                 # Fallback: copy then remove
                 Copy-Item -LiteralPath $p -Destination $backupPath -Recurse -Force -ErrorAction Stop
                 Remove-Item -LiteralPath $p -Recurse -Force -ErrorAction Stop
@@ -85,7 +85,7 @@ foreach ($p in $paths) {
         }
     }
     catch {
-        Write-Warning "Failed to process path $p: $($_.Exception.Message)"
+        Write-Warning "Failed to process path $p. $($_.Exception.Message)"
     }
 }
 
