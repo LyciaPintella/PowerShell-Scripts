@@ -14,3 +14,12 @@ ForEach-Object {
 
 Set-Location "E:\OD\Jessica\OneDrive\Jess Files\Windows Application Installers"
 .\"Microsoft EdgeWebView2 Runtime x64.exe"
+
+
+# Run from a normal (non-elevated) PowerShell or Run dialog
+wsreset.exe
+
+Start-Process "ms-windows-store://pdp/?productId=9mssgkg348sp"
+
+Test-Path "$env:LOCALAPPDATA\Packages\MicrosoftWindows.Client.WebExperience_*" -PathType Container
+Get-AppxPackage -Name MicrosoftWindows.Client.WebExperience -ErrorAction SilentlyContinue
