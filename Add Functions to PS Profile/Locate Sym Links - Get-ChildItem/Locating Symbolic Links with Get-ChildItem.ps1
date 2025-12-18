@@ -4,31 +4,51 @@ This guide shows four ways to load and call the Get-Symlinks function in PowerSh
 Prerequisites
 
 Make sure you have the Get-Symlinks function definition saved somewhere (your profile or a script file). Copy this entire block, exactly as shown, into your destination:
+<# ! Recursively Find Symbolic Links Under The Current Directory.
+			Run as:
+		     Get-Symlinks
+			#$Get-Symlinks -Symbolic#>
+
 function Get-Symlinks {
-  [CmdletBinding()]
-  param(
-    [string]$Path       = '.',
-    [switch]$OnlySymbolic
-  )
-  $gciParams = @{
-    Path            = $Path
-    Recurse         = $true
-    Force           = $true
-    Attributes      = 'ReparsePoint'
-    ErrorAction     = 'SilentlyContinue'
-  }
-  if ($PSVersionTable.PSVersion.Major -ge 7) {
-    $gciParams['FollowSymlink'] = $false
-  }
+	[CmdletBinding()]
+	param(
+		[string]$Path = '.',
+		[switch]$Symbolic,
+		[switch]$Directory
+	)
+	$gciParams = @{
+		Path        = $Path
+		Recurse     = $true
+		Force       = $true
+		Attributes  = 'ReparsePoint'
+		ErrorAction = 'SilentlyContinue'
+	}
+	if ($PSVersionTable.PSVersion.Major -ge 7) {
+		$gciParams['FollowSymlink'] = $false
+	}
 
-  $items = Get-ChildItem @gciParams
+	$items = Get-ChildItem @gciParams
 
-  if ($OnlySymbolic) {
-    $items = $items | Where-Object LinkType -eq 'SymbolicLink'
-  }
+	if ($Symbolic) {
+		$items = $items | Where-Object $_.LinkType -eq 'SymbolicLink'
+	}
+	else {
+		if ($Directory) {
+			$items = $items | Where-Object { $_.LinkType -eq 'Directory' }
+		}
+		else {
+			$items = $items | Where-Object { $_.LinkType -eq 'SymbolicLink', 'Directory' }
+		}
+	}
 
-#^ Persist via Your PowerShell Profile
-<#
+	$items | Select-Object FullName, LinkType, Target
+}
+# Create a short alias.
+if (-not (Get-Alias -Name SymLinks -ErrorAction SilentlyContinue)) {
+	Set-Alias SymLinks Get-Symlinks
+}
+
+<# ^ Persist via Your PowerShell Profile
 1. Open your profile in Notepad
 notepad $Profile
 
@@ -37,11 +57,11 @@ notepad $Profile
 4. Reload your profile (or restart PowerShell)
 5. Call the function by name
 #^ Get-Symlinks
-#& Get-Symlinks -OnlySymbolic
+#^ Get-Symlinks -OnlySymbolic
 2. Load On-Demand from a Script File
 
 1. Save the function definition to a file, for example:
-#*C:\Scripts\Get-Symlinks.ps1
+C:\Scripts\Get-Symlinks.ps1
 2. In any PowerShell session, dot-source the file to load it: C:\Scripts\Get-Symlinks.ps1"
 3. Call the function:
 & Get-Symlinks
@@ -56,9 +76,10 @@ Import-Module Get-Symlinks
 5. Call the function:
 Get-Symlinks
 4. Additional Tips
-* Create a short alias for quick access:
+Create a short alias for quick access:
 Set-Alias gsl Get-Symlinks
-* Schedule a regular audit in Task Scheduler, piping output to Export-Csv if desired.
-* Extend the function to accept wildcards, path-type filters, or custom formatting.
+Schedule a regular audit in Task Scheduler, piping output to Export-Csv if desired.
+Extend the function to accept wildcards, path-type filters, or custom formatting.
 You can now copy and paste these steps directly into your PowerShell console or scripts without reformatting.
 #>
+
