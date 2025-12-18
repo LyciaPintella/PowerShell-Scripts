@@ -1,3 +1,17 @@
+# ! This is my main set of models
+ollama pull deepseek-coder
+ollama pull deepseek-v3.1
+ollama pull deepseek-r1
+ollama pull codellama
+ollama pull gemma2
+ollama pull gpt-oss
+ollama pull llama3.1
+ollama pull llava
+ollama pull mistral
+ollama pull qwen2
+ollama pull qwen3
+<#
+
 ollama pull qwen3:8b # Qwen 3 8B (Reasoning model)
 
 # Llama 3.1 8B (Ollama library)
@@ -43,3 +57,4 @@ ollama pull llama3.2:3b
 #Supports image input
 ollama pull llava:7b
 ollama pull llava:13b
+#>
